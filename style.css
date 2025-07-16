@@ -25,9 +25,10 @@ button:hover{
 header{
     background-color: #FF900E1A;
     width: 100%;
-    height: 1322px;
+    height: 1160px;
 }
 main{
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -62,7 +63,7 @@ main{
 }
 .banner-content p {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .banner-image{
     max-width: 1140px;
@@ -70,10 +71,42 @@ main{
     margin:0 auto;
 }
 .banner-image img{
-    width: 100%;
+    max-width: 100%;
     margin-top: 50px;
 }
+.features{
+    max-width: 1140px;
+    justify-content: space-around;
+    margin-top:85px ;
+    margin-bottom: 130px;
+}
 
-@media screen and (max-width:576px) {
-    .navbar, .navlink ul, 
+.features-img-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    width: 50%;
+}
+.features-img img{
+    max-width: 100%;
+}
+.features-content{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    margin-left: 76px;
+}
+.features-content h3{
+    font-size: 2.8125rem;
+}
+.features-content h3 .design-1{
+    font-weight: 200;
+}
+.features-content h3 .design-2{
+    color: #FF900E;
+}
+
+.features-content p{
+    font-weight: 300;
+    font-size: 1rem;
 }
