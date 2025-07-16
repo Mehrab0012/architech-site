@@ -29,6 +29,14 @@ p{
   font-style: normal;
   font-size: 1rem;
 }
+h3{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.8125rem;
+  margin: 0;
+}
 h4{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -36,16 +44,18 @@ h4{
   font-style: normal;
   font-size: 1.25rem;
   color: black;
+
 }
 header{
     background-color: #FF900E1A;
-    width: 100%;
-    max-height: 1160px;
+    max-width: 100%;
+    height: 1322px;
     
 }
 main{
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 .navbar{
@@ -76,13 +86,18 @@ main{
 .banner-title{
     font-weight: bold;
     font-size: 65px;
+    margin-top: 112px;
+    margin-bottom: 10px;
 }
 .banner-content p {
     font-weight: 300;
     font-size: 1rem;
 }
+.banner-content button{
+    margin-top: 30px;
+}
 .banner-image{
-    max-width: 1140px;
+    max-width: 1440px;
     height: 700px;
     margin:0 auto;
 }
@@ -91,7 +106,7 @@ main{
     margin-top: 50px;
 }
 .features{
-    max-width: 70%;
+    max-width: 90%;
     justify-content: space-around;
     margin: auto;
     padding: 5% 0 7% 0 ;
@@ -127,7 +142,7 @@ main{
     font-size: 1rem;
 }
 .features-description{
-    width: 90%;
+    width: 95%;
     height: 1050px;
     margin: auto;
 }
@@ -136,6 +151,9 @@ main{
     height: 100%;
     display: flex;
     justify-content: space-between;
+}
+.features-content button{
+    margin-top: 20px;
 }
 .data{
     width: 50%;
@@ -152,9 +170,11 @@ main{
     background-color: #FF900E;
     margin-top: 45px;
 }
+.barrier-design h3{
+    margin: 40px;
+}
 .barrier-design .data-heading{
     font-size: 2.8125rem;
-    max-width: 60%;
     margin-left: 20px;
 }
 .data p{
@@ -180,6 +200,7 @@ main{
 }
 .experience{
   max-width: 310px;
+  max-height: 110px;
   border-radius: 8px;
   background-color: #FF900E;
   color: rgb(255, 255, 255);
@@ -187,7 +208,6 @@ main{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px; 
   text-align: center;
   padding:20px 10px 30px;
   position: relative;
@@ -202,4 +222,67 @@ main{
 .experience p{
     font-size: 1.5625rem;
     margin: 0;
+}
+.fact-header{
+    width: 40%;
+}
+.fact-header{
+    text-align: left;
+}
+
+.fact-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.fact-data{
+    border: 1px solid #FF900E;
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-data p{
+    margin-top: -2px;
+}
+.sponsor-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    text-align: center;
+}
+.sponsor-section p{
+    width: 35%;
+}
+.sponsor-images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsor-images img{
+    width: 167px;
+    filter: grayscale(100);
+}
+footer{
+    margin: 0 auto;
+    width: 1140px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
